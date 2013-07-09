@@ -1,0 +1,7 @@
+*~
+*.o
+modern
+moc_*.cpp
+*.moc
+*.user
+Makefile
