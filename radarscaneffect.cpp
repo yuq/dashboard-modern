@@ -3,10 +3,11 @@
 #include <QDebug>
 #include <QOpenGLShaderProgram>
 #include <QSGSimpleTextureNode>
+#include <QOpenGLFunctions>
 
 #include "radarscaneffect.hpp"
 
-class TextureNode : public QObject, public QSGSimpleTextureNode
+class TextureNode : public QObject, public QSGSimpleTextureNode,public QOpenGLFunctions
 {
     Q_OBJECT
 
